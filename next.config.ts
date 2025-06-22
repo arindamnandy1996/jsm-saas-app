@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
     // Enable type checking during build
     ignoreBuildErrors: false,
   },
+  eslint: {
+    // Enable linting during build
+    ignoreDuringBuilds: false,
+  },
     images: {
         remotePatterns: [
             { hostname: 'img.clerk.com' }
